@@ -18,7 +18,7 @@ mod common;
 #[cfg(feature = "tester")]
 fn send_receive_unreliable_packets() {
     let client_addr = client_addr();
-    let listen_addr: SocketAddr = "127.0.0.1:12346".parse().unwrap();
+    let listen_addr: SocketAddr = "127.0.0.1:0".parse().unwrap();
     let server = Server::new(listen_addr);
 
     let client = Client::new(Duration::from_millis(1), 5000);
@@ -65,7 +65,7 @@ fn send_receive_unreliable_packets() {
 #[test]
 #[cfg(feature = "tester")]
 fn send_receive_unreliable_packets_muliple_clients() {
-    let listen_addr: SocketAddr = "127.0.0.1:12345".parse().unwrap();
+    let listen_addr: SocketAddr = "127.0.0.1:0".parse().unwrap();
     let server = Server::new(listen_addr);
     let client = Client::new(Duration::from_millis(16), 500);
 

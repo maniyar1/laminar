@@ -87,7 +87,7 @@ mod test {
     use super::RttMeasurer;
 
     static TEST_HOST_IP: &str = "127.0.0.1";
-    static TEST_PORT: &str = "20000";
+    static TEST_PORT: &str = "0";
 
     #[test]
     fn test_create_connection() {

@@ -17,7 +17,7 @@ mod common;
 #[test]
 #[cfg(feature = "tester")]
 fn send_receive_fragment_packets() {
-    let listen_addr: SocketAddr = "127.0.0.1:12346".parse().unwrap();
+    let listen_addr: SocketAddr = "127.0.0.1:0".parse().unwrap();
     let client_addr = client_addr();
 
     let server = Server::new(listen_addr);

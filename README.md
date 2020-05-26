@@ -88,7 +88,7 @@ laminar = "0.3"
 - [Documentation](https://docs.rs/laminar/).
 - [Crates.io](https://crates.io/crates/laminar)
 - [Examples](https://github.com/amethyst/laminar/tree/master/examples)
-- [Contributing](https://github.com/amethyst/laminar/blob/master/docs/CONTRIBUTING)
+- [Contributing](https://github.com/amethyst/laminar/blob/master/docs/CONTRIBUTING.md)
 - [Book](https://amethyst.github.io/laminar/docs/index.html)
 
 ## Examples
